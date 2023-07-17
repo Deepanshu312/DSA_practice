@@ -76,7 +76,7 @@ void inorder(node* root) {
     inorder(root->right);
 
 }
-
+ 
 void preorder(node* root) {
     //base case
     if(root == NULL) {
